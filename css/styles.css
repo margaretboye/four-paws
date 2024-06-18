@@ -4,7 +4,7 @@ body {
 
 .baskervville-regular {
     font-family: "Baskervville", serif;
-    /* font-weight: 400; */
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -19,7 +19,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: red;
+    background-color: #0D80B7;
     padding: 8px 20px;
 }
 
@@ -31,7 +31,7 @@ body {
 .head-items {
     color: #fff;
     font-size: 14px;
-
+    font-weight: bold;
 }
 
 .head-subdiv{
@@ -48,8 +48,44 @@ body {
     border-right-color: rgba(0, 0, 0, 0.4);
     border-right-width: 1px;
     border-right-style: solid;
+    
 }
 
 #logo{
-    width: 8%;
+    width: 20%;
+}
+
+.list-items{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* the css below is applied to the heart icon on the donate link */
+.fa-heart{
+    color: #E34234;
+}
+
+#donate{
+    text-decoration: none;
+    color: black;
+}
+
+#call{
+    text-decoration: none;
+    color: black;
+}
+
+.head-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#head2-div1{
+    /* flex-grow: 10; */
+}
+
+.list-div{
+    display: flex;
 }
