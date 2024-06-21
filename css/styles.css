@@ -224,19 +224,43 @@ body {
 
 .sub-container{
     display: flex;
+    /* position: relative; */
 }
 
 .adopt-me{
     margin: 0 0 0 95px;
+   
+    
+}
+
+#float {
+    position: relative;
+    
 }
 
 .adopt-me img{
 width: 451px;
 height: 659px ;
+
 }
 
 .experience{
-    align-self: center;
+    position: absolute;
+    right: 2px;
+    bottom: -30px;
+    right: -40px;
+    background-color: #0B83B8;
+    padding: 18px 10px;
+    width: 194px;
+    height: 171px;
+}
+
+.experience span{
+    font-size: 76px;
+    font-weight: 900;
+    line-height: 1;
+    color: #fff;
+    
 }
 
 .img-text{
