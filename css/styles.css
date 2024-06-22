@@ -99,6 +99,7 @@ body {
     width: 100%;
     height: 12vh;
     background-color: #fff;
+    /* position: fixed; */
     ;
     /* overflow: hidden; */
 }
@@ -203,6 +204,14 @@ body {
     padding: 120px 0;
 }
 
+#para{
+    font-size: 18px;
+    color: #6B5A5A;
+    font-weight: 300;
+    line-height: 1.8;
+    margin-bottom: 40px
+}
+
 .sec h2{
     font-size: 40px;
 }
@@ -211,9 +220,16 @@ body {
     font-size: 24px;
 }
 
-#ceo{
-    font-size: 18px;
+#para p{
+    font-size: 16px;
     line-height: 1.8;
+    color: rgb(33, 37, 41);
+    font-weight: 400; 
+}
+
+#ceo span{
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .container{
@@ -229,7 +245,6 @@ body {
 
 .adopt-me{
     margin: 0 0 0 95px;
-   
     
 }
 
@@ -241,6 +256,7 @@ body {
 .adopt-me img{
 width: 451px;
 height: 659px ;
+border-radius: 140px 0 0 0;
 
 }
 
@@ -249,10 +265,10 @@ height: 659px ;
     position: absolute;
     right: 2px;
     bottom: -30px;
+    text-align: center;
     right: -40px;
     width: 194px;
     height: 171px;
-    text-align: center;
 }
 
 
@@ -261,6 +277,8 @@ height: 659px ;
     font-weight: 900;
     line-height: 1;
     color: #fff;
+    display: block;
+    margin: 10px 0 5px 0;
     
 }
 
@@ -275,4 +293,15 @@ line-height: 1.4;
 
 .img-text{
     margin: 0 0 0 95px;
+}
+
+.sec-1{
+    padding: 120px 0;
+}
+
+.sec1-p{
+    text-align: center;
+    font-weight: 300;
+    line-height: 1.4;
+    font-size: 40px;
 }
