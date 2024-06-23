@@ -307,5 +307,27 @@ line-height: 1.4;
 }
 
 .grid-container{
-    
+    display: grid;
+    grid-template-columns: 312px 312px;
+    row-gap: 10px;
+    column-gap: 10px;
+    margin: 30px;
+}
+
+.grid-container img{
+    vertical-align: middle;
+}
+
+.sub-container{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.animals-sec{
+    /* padding: 35px 30px 1px; */
+}
+
+.form-div{
+    width: 356px;
 }
